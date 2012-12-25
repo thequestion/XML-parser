@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orders Count="1">
+ <Order ID="000001">
+  <Type>N</Type>
+  <!--Indicates the type of order:N(ew),C(ancle),or U(date)-->
+  <Date>Jan 1,2004,14:00</Date>
+  <Customer>
+    <Address>
+     <Address1>123 Somewhere Ave.</Address1>
+     <Address2/>
+     <City><County>Chongming</County>Shanghai</City>
+     <State>Some state</State>
+    </Address>
+    <CreditCard>
+     <Number>11111111111</Number>
+     <CardHolderName>John James Joe</CardHolderName>
+     <Expiry>11/09/</Expiry>
+    </CreditCard>
+    <Phone>5555555555</Phone>
+    <Name>John James Joe</Name>
+    <Email>asd@hotmail.com</Email>
+  </Customer>
+  <ID>11111111</ID>
+  <Number>1111111</Number>
+  <Products Count="1">
+   <Product>
+    <Model>X10</Model>
+    <Price>129.95</Price>
+    <ID>1111111</ID>
+   </Product>
+  </Products>
+ </Order>
+</Orders>
